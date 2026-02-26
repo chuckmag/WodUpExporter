@@ -1,0 +1,73 @@
+==========================================
+WodUp Data Exporter - QUICK START
+==========================================
+
+For gym members migrating from WodUp to PushPress
+
+WHAT YOU NEED:
+1. Node.js installed (get it from nodejs.org)
+2. The file: wodup-exporter-public.js
+3. 5 minutes
+
+STEP 1: Get Your Session Token
+-------------------------------
+1. Go to wodup.com and log in
+2. Press F12 (or Cmd+Option+I on Mac)
+3. Click "Application" tab
+4. Expand "Cookies" → click "https://www.wodup.com"
+5. Find "session_token" and copy the Value
+
+STEP 2: Get Your User ID
+-------------------------
+1. Still in Developer Tools, click "Network" tab
+2. Refresh the page
+3. Click on a "graphql" request
+4. Click "Response" tab
+5. Find "currentUser" → "id" (it's a number like 111225)
+
+STEP 3: Edit the Script
+------------------------
+1. Open wodup-exporter-public.js in any text editor
+2. Find the CONFIG section (line ~120)
+3. Change these three lines:
+
+   userId: 'YOUR_USER_ID_HERE',
+   startDate: 'YYYY-MM-DD',  (when you joined the gym)
+   endDate: 'YYYY-MM-DD',    (today's date)
+
+STEP 4: Run It
+--------------
+Open Terminal/Command Prompt and run:
+
+Mac/Linux:
+  SESSION_TOKEN="your_token_here" node wodup-exporter-public.js
+
+Windows:
+  set SESSION_TOKEN=your_token_here
+  node wodup-exporter-public.js
+
+STEP 5: Get Your Data
+----------------------
+Look in the new "wodup-export" folder for:
+- workouts.csv ⭐ IMPORT THIS INTO PUSHPRESS! ⭐
+- summary.txt (overview of your fitness journey)
+- strength-lifts.csv (all your max lifts)
+- benchmark-wods.csv (Fran, Grace, Murph times, etc.)
+- all-workouts.csv (every workout you've done)
+
+STEP 6: Import to PushPress
+----------------------------
+1. Log in to PushPress Train
+2. Go to Settings → Import Workout History
+3. Upload the workouts.csv file
+4. Follow the import wizard
+
+DONE!
+-----
+Your entire WodUp history is now in PushPress!
+
+NEED HELP?
+----------
+See the full instructions in WODUP-EXPORT-INSTRUCTIONS.md
+
+Questions? Ask Chris Magrane at the gym!

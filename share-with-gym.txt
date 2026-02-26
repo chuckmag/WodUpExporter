@@ -1,0 +1,51 @@
+==========================================
+SHARE THESE FILES WITH YOUR GYM MATES:
+==========================================
+
+Hey Override fam! Here's how to export your WodUp data before we switch to PushPress:
+
+FILES TO SHARE:
+1. wodup-exporter-public.js  (the script)
+2. WODUP-EXPORT-INSTRUCTIONS.md  (detailed guide)
+3. QUICK-START.txt  (simple steps)
+
+EASIEST WAY TO SHARE:
+- Create a shared Google Drive folder
+- Upload all three files
+- Share the link in the gym's group chat
+
+WHAT TO TELL PEOPLE:
+--------------------
+"Hey everyone! I created a script to export all your WodUp workout data 
+(max lifts, benchmark times, PRs, everything!) before we switch to PushPress.
+
+It's super easy - takes about 5 minutes and you'll have a complete backup 
+of your entire fitness journey.
+
+Download these files and follow the QUICK-START.txt instructions:
+[Insert your share link here]
+
+Need help? Ask me at the gym!"
+
+SUPPORT YOUR GYM MATES:
+-----------------------
+Common issues they might have:
+
+1. "I don't have Node.js"
+   → Send them to nodejs.org to download it (it's free and safe)
+
+2. "I can't find my session token"
+   → Walk them through it at the gym or over a video call
+
+3. "It says my user ID is wrong"
+   → Help them find it in the Network tab (see instructions)
+
+4. "The script doesn't work"
+   → Check if their session token expired (they need a fresh one)
+
+PRIVACY REMINDER:
+-----------------
+Tell everyone: "Don't share your session token with anyone - 
+it's like a temporary password to your account!"
+
+==========================================

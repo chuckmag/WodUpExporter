@@ -1,0 +1,142 @@
+==========================================
+FOR CHRIS: How to Share This With Members
+==========================================
+
+📁 FOLDER TO SHARE: ShareWithMembers/
+
+This folder contains everything members need to export
+their own WodUp data.
+
+==========================================
+WHAT'S IN THE FOLDER
+==========================================
+
+Essential files (share these):
+1. START-HERE.txt - First file to read
+2. QUICK-START.txt - Simple instructions
+3. wodup-exporter-public.js - The export script
+4. WODUP-EXPORT-INSTRUCTIONS.md - Detailed guide
+5. README-FOR-MEMBERS.md - Overview
+
+This file (don't share):
+6. SHARE-INSTRUCTIONS.txt - Instructions for you
+
+==========================================
+HOW TO SHARE
+==========================================
+
+Option 1: Google Drive (Recommended)
+-------------------------------------
+1. Go to drive.google.com
+2. Create a new folder: "WodUp Export Tool"
+3. Upload files 1-5 from above
+4. Right-click folder → Share → Get link
+5. Set to "Anyone with the link can view"
+6. Copy the link
+
+Option 2: Dropbox
+-----------------
+1. Upload files to Dropbox
+2. Right-click folder → Share
+3. Create a link
+4. Copy and share
+
+Option 3: Email
+---------------
+Zip the folder and email to individuals
+
+==========================================
+SAMPLE MESSAGE FOR GYM GROUP CHAT
+==========================================
+
+"Hey Override fam! 👋
+
+Before we switch to PushPress, make sure to back up your WodUp data!
+
+I created an easy tool to export:
+✓ Every workout you've done
+✓ All your PRs and max lifts  
+✓ Benchmark WOD times
+✓ Complete fitness history
+
+Takes 10 minutes, no coding skills needed!
+
+Download here: [PASTE YOUR LINK]
+
+Read START-HERE.txt first, then follow QUICK-START.txt
+
+IMPORTANT: PushPress import is still being tested and may not 
+work yet, BUT you'll have a complete backup of your data!
+
+Questions? Ask me at the gym!
+
+- Chris"
+
+==========================================
+IMPORTANT NOTES TO TELL MEMBERS
+==========================================
+
+1. Export NOW - Don't wait!
+   Even if PushPress import doesn't work yet, they
+   need a backup before WodUp access is gone.
+
+2. PushPress import is experimental
+   - Upload may succeed but workouts won't appear yet
+   - We're working with PushPress to fix this
+   - Keep the exported files safe for when it works
+
+3. Benchmarks need manual linking
+   Even when import works, Fran/Grace/Murph times
+   must be manually linked in PushPress Benchmarks
+
+4. Data is safe
+   - Script only reads data
+   - Nothing is uploaded anywhere
+   - All data stays on their computer
+
+==========================================
+SUPPORTING MEMBERS
+==========================================
+
+Common questions you'll get:
+
+Q: "I don't have Node.js"
+A: Send them to nodejs.org - it's free and safe
+
+Q: "I can't find my session token"
+A: Offer to sit with them at the gym and show them
+
+Q: "What's my user ID?"
+A: Help them find it in the Network tab (instructions included)
+
+Q: "The import didn't work in PushPress"
+A: "That's normal - PushPress is still testing the feature.
+    Keep your files safe and wait for updates from the gym."
+
+Q: "Do I really need to do this?"
+A: "YES! Once we switch, you'll lose access to WodUp.
+    This is your only chance to save your data!"
+
+==========================================
+TIMELINE
+==========================================
+
+Week 1: Share the export tool
+Week 2: Help sessions at the gym
+Week 3: Follow up with people who haven't exported
+Week 4: Test PushPress import with volunteers
+Week 5+: Wait for PushPress to fix import feature
+
+==========================================
+SUCCESS METRICS
+==========================================
+
+Goal: 50%+ of active members export their data
+
+Track:
+- How many people download the tool
+- How many successfully export
+- How many need help
+- Common issues that come up
+
+==========================================
